@@ -1,0 +1,37 @@
+.col-xs-1 {
+    width: calc(100%/12);
+    border: 5px solid purple;
+}
+.col-xs-2 {
+    width: calc(200%/12);
+    border: 5px solid deeppink;
+}
+.col-xs-3 {
+    width: calc(300%/12);
+    border: 5px solid greenyellow;
+}
+.col-xs-4 {
+    width: calc(400%/12);
+    border: 5px solid orangered;
+}
+.col-xs-5 {
+    width: calc(500%/12);
+    border: 5px solid blue;
+}
+.col-xs-6 {
+    width: calc(600%/12);
+    border: 5px solid firebrick;
+}
+.col-xs-7 {
+    width: calc(700%/12);
+    border: 5px solid darkgreen;
+}
+
+.col-l-1 {
+    width: calc(100%/12);
+    border: 5px solid goldenrod;
+}
+.col-l-6 {
+    width: calc(600%/12);
+    border: 5px solid mediumturquoise;
+}
