@@ -1,0 +1,52 @@
+body
+{
+	font-family: 'Times New Roman', Times, serif;
+	background-color: deeppink;
+}
+
+header
+{
+	text-align: center;
+	background-color: purple;
+	margin: auto;
+	width: 90%;
+	border-radius: 10px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+p
+{
+	margin: 15px;
+	text-align: justify;
+	background-color: purple;
+	border-radius: 10px;
+	width:30%;
+	padding: 10px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+section
+{
+	display: flex;
+}
+
+@media (max-width: 800px)		
+{
+	section
+	{
+		display: block;
+	}
+
+	p
+	{
+		width: 90%;
+	}
+}
+
+@media (max-width: none)		
+{
+	header
+	{
+		display: none;
+	}	
+}
