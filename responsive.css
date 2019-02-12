@@ -5,7 +5,6 @@
 .col-xs-1 {
     width: calc(100%/12);
     border: 5px solid purple;
-    
     height: 30px;
 }
 
@@ -44,10 +43,33 @@
     border: 5px solid greenyellow;
     height: 30px;
 }
+.col-xs-9 {
+    width: calc(900%/12);
+    border: 5px solid grey;
+    height: 30px;
+}
+.col-xs-10 {
+    width: calc(1000%/12);
+    border: 5px solid black;
+    height: 30px;
+}
+.col-xs-11 {
+    width: calc(1100%/12);
+    border: 5px solid red;
+    height: 30px;
+}
+.col-xs-12 {
+    width: calc(1200%/12);
+    border: 5px solid orange;
+    height: 30px;
+}
+
+
+
 
 .col-l-1 {
     width: calc(100%/12);
-    border: 5px solid goldenrod;
+    border: 5px solid palevioletred;
     height: 30px;
 }
 .col-l-6 {
