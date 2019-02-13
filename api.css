@@ -43,11 +43,5 @@ section
 	}
 }
 
-@media (max-width: none)		
-{
-	header
-	{
-		display: none;
-	}	
-}
+
 
