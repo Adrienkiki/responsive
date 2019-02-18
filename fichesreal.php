@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Realisateur</h2>
+
+
+<div class="row">
+
+   <div class="column" style="background-color:deeppink;">
+    <h2>Lundi</h2>
+    <p><h2><img class="photo" src='sun.jpg' alt=""></h2>
+      </p>
+  </div>
+  <div class="column" style="background-color:palevioletred;">
+    <h2>Mardi</h2>
+    <p><h2><img class="photo" src='sun.jpg' alt=""></h2>
+        temperature: 53°cel<br>
+        risque de neige: 99%<br>
+        vent: oso 110km/h , ressenti 32°<br>
+        précipitation: 30cm<br>
+        préssion: 4050 hPa<br>
+        visibilité: 100.9km<br></p>
+  </div>
+  
+  <div class="column" style="background-color:pink;">
+    <h2>Mercredi</h2>
+    <p><h2><img class="photo" src='thermo.jpg' alt=""></h2>
+        temperature: 39°cel<br>
+        risque de neige: 10%<br>
+        vent: oso 6km/h , ressenti 2°<br>
+        précipitation: 0cm<br>
+        préssion: 1036 hPa<br>
+        visibilité: 12.9km<br></p>
+  </div>
+  
+  <div class="column" style="background-color:rosybrown;">
+    <h2>Jeudi</h2>
+    <p><h2><img class="photo" src='vent.jpg' alt=""></h2>
+        temperature: 104°cel<br>
+        risque de neige: 50%<br>
+        vent: oso 76km/h , ressenti 45°<br>
+        précipitation: 0cm<br>
+        préssion: 569.3 hPa<br>
+        visibilité: 103km<br></p>
+  </div>
+  
+  <div class="column" style="background-color:burlywood;">
+    <h2>Vendredi</h2>
+    <p><h2><img class="photo" src='orage.jpg' alt=""></h2>
+        temperature: 800°cel<br>
+        risque de neige: 75%<br>
+        vent: oso 206km/h , ressenti 95°<br>
+        précipitation: 90cm<br>
+        préssion: 10856 hPa<br>
+        visibilité: 07km<br></p>
+  </div>
+
+  <div class="column" style="background-color:aquamarine;">
+        <h2>Samedi</h2>
+        <p><h2><img class="photo" src='licon.jpg' alt=""></h2>
+            temperature: 3000°cel<br>
+            risque de neige: 200%<br>
+            vent: oso 800km/h , ressenti 295°<br>
+            précipitation: 390cm<br>
+            préssion: 10 hPa<br>
+            visibilité: 96km<br></p>
+  </div>
+
+  <div class="column" style="background-color:aqua;">
+        <h2>Dimanche</h2>
+        <p><h2><img class="photo" src='pluie.jpg' alt=""></h2>
+            temperature: -85°cel<br>
+            risque de neige: 05%<br>
+            vent: oso 8000km/h , ressenti 995°<br>
+            précipitation: 390cm<br>
+            préssion: 1 hPa<br>
+            visibilité: 0.1km<br></p>
+      </div>
+</div>
+
+</body>
+</html>

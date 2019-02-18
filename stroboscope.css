@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    -webkit-animation: blinker 0.1s infinite;
+}
+
+ @-webkit-keyframes blinker {
+   from { background-color: white; }
+   to { background-color: black; }
+ }
+
+.conteneur{ 
+    margin-top: 200px;
+    margin-left: 500px;
+	height: 500px;
+	width: 1000px;
+	background-color:deeppink;
+	border-radius: 15px;
+	text-align: center;
+	perspective:800px;
+	border: 1px solid black;
+}
+.conteneur {
+    background-color:deeppink;
+    /*-webkit-animation: blinker2 0.001s infinite;*/
+}
+
+ @-webkit-keyframes blinker2 {
+   from { background-color:black; }
+   to { background-color: deeppink; }
+ }
+ @-webkit-keyframes blink {
+   from { background-color:black; }
+   to { background-color: white; }
+ }
+ .main2{ 
+    margin-top: 80px;
+    margin-left: 170px;
+  height: 350px;
+  width: 700px;
+  background-color:blue;
+  border-radius: 15px;
+  text-align: center;
+  perspective:800px;
+  border: 1px solid black;
+  -webkit-animation: blink 0.001s infinite;
+}

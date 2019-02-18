@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <link rel="stylesheet" href="">
+<head>
+    <meta charset="UTF-8">
+    <title>Stroboscope</title>
+    <style>
+    	
+    	body {
+    background-color: black;
+    -webkit-animation: blinker 0.1s infinite;
+}
+
+ @-webkit-keyframes blinker {
+   from { background-color: white; }
+   to { background-color: black; }
+ }
+
+.conteneur{ 
+    margin-top: 200px;
+    margin-left: 500px;
+	height: 500px;
+	width: 1000px;
+	background-color:deeppink;
+	border-radius: 15px;
+	text-align: center;
+	perspective:800px;
+	border: 1px solid black;
+}
+.conteneur {
+    background-color:yellow;
+    -webkit-animation: blinker2 0.01s infinite;
+}
+ @-webkit-keyframes blinko {
+   from { opacity:1; }
+   to { opacity: 0.1; }
+ }
+ @-webkit-keyframes blinker2 {
+   from { background-color:black; }
+   to { background-color: aqua; }
+ }
+ @-webkit-keyframes blink {
+   from { background-color:black; }
+   to { background-color: white; }
+ }
+ .main2{ 
+    margin-top: 80px;
+    margin-left: 100px;
+  height: 350px;
+  width: 800px;
+  background-color:blue;
+  border-radius: 15px;
+  text-align: center;
+  perspective:800px;
+  border: 1px solid black;
+  -webkit-animation: blink 0.001s infinite;
+}
+.photo {
+	height: 200px;
+	width: 200px;
+	margin-top: 70px;
+	  -webkit-animation: blinko 0.01s infinite;
+}
+    </style>
+</head>
+<body>
+
+        <div class="conteneur">
+        <div class="main">
+        	<div class="main2"> <img class="photo" src="20th.png" alt="" />
+</div>
+        </div>
+        </div>
+        <audio controls autoplay>
+  <source src="century.mp3" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+</body>
+</html>
